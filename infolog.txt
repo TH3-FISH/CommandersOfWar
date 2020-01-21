@@ -1,0 +1,397 @@
+Using writeable configuration source: "C:\Users\Th3fi\Desktop\spring-104.0_win32\springsettings.cfg"
+Available log sections: ModelRenderContainer, DecalsDrawerGL4, Path, AutohostInterface, Sound, BumpWater, GameServer, Net, LuaSocket, RoamMeshDrawer, CregSerializer, DynWater, SkyBox, Texture, Font, Shader, KeyBindings, ArchiveScanner, FarTextureHandler, Piece, CSMFGroundTextures, GroundMoveType, Model, OBJParser, VFS
+Enabled log sections: Sound(Notice)
+Enable or disable log sections using the LogSections configuration key
+  or the SPRING_LOG_SECTIONS environment variable (both comma separated).
+  Use "none" to disable the default log sections.
+LogOutput initialized.
+============== <User Config> ==============
+  InputTextGeo = 0.26 0.73 0.02 0.028
+  LastSelectedMap = Desert 2.8
+  LastSelectedMod = Empty Mod
+  LastSelectedScript = Player Only: Testing Sandbox
+============== </User Config> ==============
+============== <User System> ==============
+  Spring 104.0
+    Build Environment: boost-105500, GNU libstdc++ version 20130531
+     Compiler Version: gcc-4.8.1
+     Operating System: Microsoft Windows
+Microsoft Home Premium Edition, 64-bit (build 9200)
+AMD FX-8800P Radeon R7, 12 Compute Cores 4C+8G ; 5727MB RAM, 18015MB pagefile
+     Binary Word Size: 32-bit emulated
+     Deque Chunk Size: 128
+        Process Clock: std::chrono::high_resolution_clock
+   Physical CPU Cores: 4
+    Logical CPU Cores: 4
+============== </User System> ==============
+[good_fpu_init] CPU SSE mask: 1023, flags:
+	SSE 1.0:  1,  SSE 2.0:  1
+	SSE 3.0:  1, SSSE 3.0:  1
+	SSE 4.1:  1,  SSE 4.2:  1
+	SSE 4.0A: 1,  SSE 5.0A: 1
+	using streflop SSE FP-math mode, CPU supports SSE instructions
+[WatchDogInstall] Installed (HangTimeout: 10sec)
+[WatchDog::RegisterThread] registering controls for thread [main]
+[GL::CheckAvailableVideoModes] desktop={1920x1080x24bpp@60Hz} current={1920x1080x24bpp@60Hz}
+	display=1 modes=16 bounds={x=0, y=0, w=1920, h=1080}
+		[ 1] 1920x1080x24bpp@60Hz
+		[ 3] 1680x1050x24bpp@60Hz
+		[ 5] 1600x900x24bpp@60Hz
+		[ 9] 1280x720x24bpp@60Hz
+[GR::CreateSDLWindow] using 0x anti-aliasing and 24-bit depth-buffer (PF="SDL_PIXELFORMAT_RGB888")
+[GR::LogVersionInfo]
+	SDL version : 2.0.4 (linked) / 2.0.4 (compiled)
+	GL version  : 3.0.13399 Compatibility Profile Context 15.201.1121.1002
+	GL vendor   : ATI Technologies Inc.
+	GL renderer : AMD Radeon(TM) R7 Graphics
+	GLSL version: 4.40
+	GLEW version: 1.5.8
+	GPU memory  : unknown
+	SDL swap-int: 0
+	
+	ARB shader support        : 1
+	GLSL shader support       : 1
+	FBO extension support     : 1
+	NVX GPU mem-info support  : 0
+	ATI GPU mem-info support  : 0
+	NPOT-texture support      : 1 (1)
+	texture query-LOD support : 1 (1)
+	24-bit Z-buffer support   : 0 (-)
+	primitive-restart support : 1 (1)
+	clip-space control support: 0 (0)
+	frag-depth layout support : 0 (-)
+	
+	max. FBO samples             : -1
+	max. texture size            : 16384
+	max. texture anisotropy level: 16.000000
+	max. vec4 varyings/attributes: 32/29
+	max. draw-buffers            : 8
+	max. rec. indices/vertices   : 16777215/2147483647
+	max. uniform buffer-bindings : 90
+	max. uniform block-size      : 559236KB
+	
+	enable ATI-hacks : 1
+	compress MIP-maps: 0
+[GR::ToggleGLDebugOutput] OpenGL debug-context not installed (dbgErrors=0 dbgTraces=0)
+[VSync::SetInterval] interval=0 (disabled)
+[GR::LogDisplayMode] display-mode set to 1920x1080x24bpp@60Hz (fullscreen::decorated)
+[DataDirLocater::Check] Portable Mode!
+Using read-write data directory: C:\Users\Th3fi\Desktop\spring-104.0_win32\
+Scanning: C:\Users\Th3fi\Desktop\spring-104.0_win32\maps
+Scanning: C:\Users\Th3fi\Desktop\spring-104.0_win32\base
+Scanning: C:\Users\Th3fi\Desktop\spring-104.0_win32\games
+[~ScopedOnceTimer][CArchiveScanner::ScanAllDirs] 84ms
+[ThreadPool::SetThreadCount][1] wanted=3 current=1 maximum=4 (init=1)
+[ThreadPool::SetThreadCount][2] workers=2
+[Threading] Main thread CPU affinity mask set: 12
+[f=-000001] [~ScopedOnceTimer][ISound::Init::New] 0ms
+[f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (0.0ms)
+[f=-000001] [Sound] [Sound::UpdateThread][1] cfgMaxSounds=128
+[f=-000001] [WatchDog::RegisterThread] registering controls for thread [audio]
+[f=-000001] [Sound] [Sound::InitThread][1]
+[f=-000001] [Sound] [Sound::InitThread][2] opening default device "OpenAL Soft"
+[f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (101.2ms)
+[f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (201.6ms)
+[f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (302.3ms)
+[f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (403.4ms)
+[f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (504.4ms)
+[f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (605.4ms)
+[f=-000001] [Sound] [Sound::InitThread][3] device=05203680 context=0444ee80
+[f=-000001] [Sound] [Sound::InitThread][4][OpenAL API Info]
+[f=-000001] [Sound]   Vendor:         OpenAL Community
+[f=-000001] [Sound]   Version:        1.1 ALSOFT 1.16.0
+[f=-000001] [Sound]   Renderer:       OpenAL Soft
+[f=-000001] [Sound]   AL Extensions:  AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_block_alignment AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFT_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_MSADPCM AL_SOFT_source_latency AL_SOFT_source_length
+[f=-000001] [Sound]   ALC Extensions: ALC_ENUMERATE_ALL_EXT ALC_ENUMERATION_EXT ALC_EXT_CAPTURE ALC_EXT_DEDICATED ALC_EXT_disconnect ALC_EXT_EFX ALC_EXT_thread_local_context ALC_SOFTX_device_clock ALC_SOFTX_HRTF ALC_SOFT_loopback ALC_SOFTX_midi_interface ALC_SOFT_pause_device
+[f=-000001] [Sound]   Devices:
+[f=-000001] [Sound]     [Speaker/HP (Realtek High Definition Audio)]
+[f=-000001] [Sound]     [VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)]
+[f=-000001] [Sound]     [CABLE Input (VB-Audio Virtual Cable)]
+[f=-000001] [Sound]     [VoiceMeeter Aux Input (VB-Audio VoiceMeeter AUX VAIO)]
+[f=-000001] [Sound]     [Speaker/HP (Realtek High Definition Audio)]
+[f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (706.4ms)
+[f=-000001] [Sound] Error:   EFX: AL_INVALID_VALUE (40963)
+[f=-000001] [Sound] Error:   Initializing EFX failed!
+[f=-000001] [Sound] [Sound::UpdateThread][2]
+[f=-000001] [~ScopedOnceTimer][ISound::Init::Dev] 807ms
+[f=-000001] Joysticks found: 0
+[f=-000001] [GR::LogDisplayMode] display-mode set to 1920x1080x24bpp@60Hz (fullscreen::decorated)
+[f=-000001] [CPreGame] server using IP localhost and port 8452
+[f=-000001] [NetProto::InitLocalClient] connecting to local server
+[f=-000001] [PreGame::AddGameSetupArchivesToVFS] using map: Desert 2.8
+[f=-000001] [PreGame::StartServer] checksums: game=0xB4699164 map=0x21894CA3
+[f=-000001] Warning: [UDPListener::TryBindSocket] opening socket on loopback address, other users will not be able to connect!
+[f=-000001] [UDPListener::TryBindSocket] binding UDP socket to IPv6-address ::1 (localhost) on port 8452
+[f=-000001] [UDPListener] successfully bound socket on port 8452
+[f=-000001] [~ScopedOnceTimer][PreGame::StartServer] 61ms
+[f=-000001] [PreGame::AddGameSetupArchivesToVFS] using map: Desert 2.8
+[f=-000001] [PreGame::AddGameSetupArchivesToVFS] using game: Empty Mod (archive: emptymod (1).sdz)
+[f=-000001] PreGame::GameDataReceived] recording demo to "C:\Users\Th3fi\Desktop\spring-104.0_win32\demos\20200120_090439_Desert 2_104.sdfz"
+[f=-000001] [~ScopedOnceTimer][PreGame::GameDataReceived] 46ms
+[f=-000001] [PreGame::UpdateClientNet] received user number 0 (team 0, allyteam 0), creating load-screen
+[f=-000001] [LuaIntro] Searching for new Widgets
+[f=-000001] [LuaIntro] Scanning: LuaIntro/Addons/
+[f=-000001] [LuaIntro] Scanning: LuaIntro/Widgets/
+[f=-000001] [LuaIntro] Scanning: LuaIntro/SystemAddons/
+[f=-000001] [LuaIntro] Scanning: LuaIntro/SystemWidgets/
+[f=-000001] [LuaIntro] Scanning: LuaIntro/chili/
+[f=-000001] [LuaIntro] Found new widget "SpringLogo"
+[f=-000001] [LuaIntro] Found new widget "LoadTexture"
+[f=-000001] [LuaIntro] Found new widget "LoadProgress"
+[f=-000001] [LuaIntro] Found new widget "Main"
+[f=-000001] [LuaIntro] Found new widget "Music"
+[f=-000001] [LuaIntro] Loading widgets   <>=vfs  **=raw  ()=unknown
+[f=-000001] [LuaIntro] Loading widget:      LoadProgress           <loadprogress.lua>
+[f=-000001] [LuaIntro] Loading widget:      Main                   <main.lua>
+[f=-000001] [LuaIntro] Loading widget:      Music                  <music.lua>
+[f=-000001] [LuaIntro] Error: Failed to load: bg_texture.lua  (error = 2, LuaIntro/Addons/bg_texture.lua, [string "LuaIntro/Addons/bg_texture.lua"]:18: bad argument #1 to 'random' (interval is empty))
+[f=-000001] [LuaIntro] LuaIntro v1.0 (Lua 5.1)
+[f=-000001] [LoadScreen::Init] single-threaded
+[f=-000001] [WatchDog::RegisterThread] registering controls for thread [load]
+[f=-000001] [Game::LoadGame][1] globalQuit=0 threaded=0
+[f=-000001] Parsing Map Information
+[f=-000001] Loading SMF
+[f=-000001] Loading Map (97 MB)
+[f=-000001] Loading Radar Icons
+[f=-000001] Loading GameData Definitions
+[f=-000001] [unitdefs.lua] Error: removed the "base" entry from the "builder" build menu
+[f=-000001] [unitdefs.lua] Error: removed the "building" entry from the "builder" build menu
+[f=-000001] [defs.lua] loading all *Defs tables: 12ms
+[f=-000001] [~ScopedOnceTimer][Game::LoadDefs (GameData)] 14ms
+[f=-000001] Loading Sound Definitions
+[f=-000001] [Sound]  parsed 3 sounds from gamedata/sounds.lua
+[f=-000001] [Sound] Error: [LoadSoundBuffer] unable to open audio file "sounds/incoming_chat.wav"
+[f=-000001] [~ScopedOnceTimer][Game::LoadDefs (Sound)] 3ms
+[f=-000001] [Game::LoadGame][2] globalQuit=0 forcedQuit=0
+[f=-000001] Creating Smooth Height Mesh
+[f=-000001] [~ScopedOnceTimer][SmoothHeightMesh::MakeSmoothMesh] 160ms
+[f=-000001] Creating QuadField & CEGs
+[f=-000001] [CDamageArrayHandler] number of ArmorDefs: 1
+[f=-000001] [RegisterAssimpModelFormats] supported Assimp model formats: *.3ds;*.blend;*.dae;*.lwo;
+[f=-000001] Creating Unit Textures
+[f=-000001] Creating Sky
+[f=-000001] [Game::LoadGame][3] globalQuit=0 forcedQuit=0
+[f=-000001] Loading Weapon Definitions
+[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (WeaponDefs)] 0ms
+[f=-000001] Loading Unit Definitions
+[f=-000001] Error: Couldn't find WeaponDef NOWEAPON and explodeAs for builder is missing!
+[f=-000001] Error: Couldn't find WeaponDef NOWEAPON and selfDestructAs for builder is missing!
+[f=-000001] Error: Couldn't find WeaponDef NOWEAPON and explodeAs for cube is missing!
+[f=-000001] Error: Couldn't find WeaponDef NOWEAPON and selfDestructAs for cube is missing!
+[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (UnitDefs)] 2ms
+[f=-000001] Loading Feature Definitions
+[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (FeatureDefs)] 2ms
+[f=-000001] [IPathManager::GetInstance] using DEFAULT path-manager
+[f=-000001] Initializing Map Features
+[f=-000001] [Sound] Error: [LoadSoundBuffer] unable to open audio file "sounds/mappoint.wav"
+[f=-000001] Creating ShadowHandler
+[f=-000001] Creating InfoTextureHandler
+[f=-000001] InfoTexture: shaders
+[f=-000001] Creating GroundDrawer
+[f=-000001] Loading Map Tiles
+[f=-000001] Loading Square Textures
+[f=-000001] [~ScopedOnceTimer][CSMFGroundTextures::ConvolveHeightMap] 6ms
+[f=-000001] Switching to ROAM Mesh Rendering
+[f=-000001] Creating TreeDrawer
+[f=-000001] Loaded DecalsDrawer: Legacy
+[f=-000001] Creating ProjectileDrawer & UnitDrawer
+[f=-000001] Creating Projectile Textures
+[f=-000001] Error: [TextureAtlas::CreateTexture] bad allocation for atlas "ProjectileEffectsAtlas" (size=<0,0>)
+[f=-000001] Error: Could not finalize groundFX texture atlas. Use fewer/smaller textures.
+[f=-000001] Creating Water
+[f=-000001] [Game::LoadGame][4] globalQuit=0 forcedQuit=0
+[f=-000001] [~ScopedOnceTimer][Game::LoadInterface (Camera&Mouse)] 120ms
+[f=-000001] [Sound] Error: [LoadSoundBuffer] unable to open audio file "sounds/multiselect.wav"
+[f=-000001] [~ScopedOnceTimer][Game::LoadInterface (Console)] 0ms
+[f=-000001] [Sound] Error: [LoadSoundBuffer] unable to open audio file "FailedCommand"
+[f=-000001] [Sound] Error: [Sound::GetSoundId] could not find sound "FailedCommand"
+[f=-000001] Loading LuaRules
+[f=-000001] Loaded SYNCED gadget:  SpawnPlayer         <spawnplayer.lua>
+[f=-000001] Loaded SYNCED gadget:  Lua unit script framework  <unit_script.lua>
+[f=-000001] Loading LuaGaia
+[f=-000001] Loaded SYNCED gadget:  s11n gadget         <s11n_gadget_load.lua>
+[f=-000001] Loaded SYNCED gadget:  s11n map feature loader  <s11n_load_map_features.lua>
+[f=-000001] Loaded UNSYNCED gadget:  s11n_gadget_load.lua  <s11n_gadget_load.lua>
+[f=-000001] Loaded UNSYNCED gadget:  Precipitation       <precipitation.lua>
+[f=-000001] Loading LuaUI
+[f=-000001] LuaUI Entry Point: "luaui.lua"
+[f=-000001] LuaUI Access Lock: disabled
+[f=-000001] LuaSocket Enabled: yes
+[f=-000001] Using LUAUI_DIRNAME = LuaUI/
+[f=-000001] Reloading GUI config from file: LuaUI/ctrlpanel.txt
+[f=-000001] LuaUI: bound F11 to the widget selector
+[f=-000001] LuaUI: bound CTRL+F11 to tweak mode
+[f=-000001] [Sound]  parsed 8 sounds from LuaUI/sounds/ambient/ambientplaylist.lua
+[f=-000001] LuaUI v0.3
+[f=-000001] [Game::LoadGame][5] globalQuit=0 forcedQuit=0
+[f=-000001] [s11n] Loading s11n file...
+[f=-000001] [s11n] Parsing model...
+[f=-000001] [s11n] Populating game world...
+[f=-000001] [s11n] s11n loading complete.
+[f=-000001] [LoadFinalize] finalizing PFS
+[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] BLOCK_SIZE=16
+[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] PATHESTIMATOR_VERSION=88
+[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] heightMapChecksum=4811f191
+[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] typeMapChecksum=5c084335
+[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] moveDefChecksum=b20f67f9
+[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] blockMapChecksum=95c0d55c
+[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] estimatorHashCode=ebea7283
+[f=-000001] [Path] [PathEstimator::ReadFile] hash=ebea7283 file="cache\104rel-/paths/Desert 2.8.pe-ebea7283.zip" (exists=1)
+[f=-000001] Reading Estimate PathCosts [16]
+[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] BLOCK_SIZE=32
+[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] PATHESTIMATOR_VERSION=88
+[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] heightMapChecksum=4811f191
+[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] typeMapChecksum=5c084335
+[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] moveDefChecksum=b20f67f9
+[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] blockMapChecksum=95c0d55c
+[f=-000001] [Path] [PathEstimator::CalcHash][CPathEstimator] estimatorHashCode=ebea7293
+[f=-000001] [Path] [PathEstimator::ReadFile] hash=ebea7293 file="cache\104rel-/paths/Desert 2.8.pe2-ebea7293.zip" (exists=1)
+[f=-000001] Reading Estimate PathCosts [32]
+[f=-000001] [LoadFinalize] finalized PFS (134ms, checksum b338b501)
+[f=-000001] [Game::LoadGame][6] globalQuit=0 forcedQuit=0
+[f=-000001] [LuaMemPool::LogStats][handle=LuaIntro (unsynced)] index=1 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,10791,0} {chunk,block}Bytes={0,0}
+[f=-000001] GameID: 87c1255e8777ed08c73521462cfb69c8
+[f=-000001] Connection attempt from UnnamedPlayer
+[f=-000001]  -> Version: 104.0
+[f=-000001]  -> Connection established (given id 0)
+[f=-000001] [Game::ClientReadNet][LOGMSG] sender="UnnamedPlayer" string="[PreGame::GameDataReceived][map-checksums={0x21894ca3,0x21894ca3}]"
+[f=-000001] [Game::ClientReadNet][LOGMSG] sender="UnnamedPlayer" string="[PreGame::GameDataReceived][mod-checksums={0xb4699164,0xb4699164}]"
+[f=-000001] [Game::ClientReadNet][LOGMSG] sender="UnnamedPlayer" string="[PE::CalcChecksum][BLK_SIZE=16][SHA_DATA=0bb2712102316289b0f307d979ba4e5a2aa03873fedc7b779726f415ca0ab158b0a5e59c89353b43d47106916f1db2b2f00ecbda5756e8c5ffa4a6320a398e3c]"
+[f=-000001] [Game::ClientReadNet][LOGMSG] sender="UnnamedPlayer" string="[PE::CalcChecksum][BLK_SIZE=32][SHA_DATA=b33552e8bd4241bbe5dc57f9090ed59bf3287bff9739f39897f00ef9c87451efb71f73be179c644cfcfb8515ae9bf2009233d39b1bebddbf8d758b648aa63303]"
+[f=-000001] Player UnnamedPlayer finished loading and is now ingame
+[f=0000323] Press Shift+esc to access the quit menu
+[f=0000442] [QuitBox] user exited to menu
+[f=0000442] [SpringApp::Reload][1]
+[f=0000442] [ThreadPool::SetThreadCount][1] wanted=0 current=3 maximum=4 (init=0)
+[f=0000442] 	[async=0] threads=3 tasks=3410 {sum,avg}{exec,wait}time={{-0.000, -0.000}, {2.000, 0.000}}ms
+[f=0000442] 		thread=1 tasks=1705 {sum,min,max,avg}{exec,wait}time={{-26815615859885194199148049996411692254958731641184786755447122887443528060147093953603748596333806855380063716372972101707507765623893139892867298012168192.000, 0.000, 0.000, 0.000}, {2.000, 0.000, 26815615859885194199148049996411692254958731641184786755447122887443528060147093953603748596333806855380063716372972101707507765623893139892867298012168192.000, -2.000}}ms
+[f=0000442] 		thread=2 tasks=1705 {sum,min,max,avg}{exec,wait}time={{-2.000, 0.000, 2.000, 26815622279176343588559109391223789089961174147097256647153234088449606544630063039533766365637963450521467482775237632419509864507662517424100554806657024.000}, {0.000, 0.000, -0.000, -26815622277031504986404804113216191028363608355985397755947192288920846281493596474619221016680679392638342150211414509819675475216327651184137887637569536.000}}ms
+[f=0000442] 	[async=1] threads=3 tasks=9 {sum,avg}{exec,wait}time={{0.000, 0.000}, {-26815615859885194199148049996411692254958731641184786755447122887443528060147093953603748596333806855380063716372972101707507765623893139892867298012168192.000, -0.000}}ms
+[f=0000442] 		thread=1 tasks=5 {sum,min,max,avg}{exec,wait}time={{0.000, 0.000, 0.000, 0.000}, {-0.000, 0.000, -2.000, -2.000}}ms
+[f=0000442] 		thread=2 tasks=4 {sum,min,max,avg}{exec,wait}time={{0.000, 0.000, 0.000, 0.000}, {-0.000, 0.000, -26815615859885194199148049996411692254958731641184786755447122887443528060147093953603748596333806855380063716372972101707507765623893139892867298012168192.000, -0.000}}ms
+[f=0000442] [ThreadPool::SetThreadCount][2] workers=0
+[f=0000442] [ThreadPool::SetThreadCount][1] wanted=3 current=1 maximum=4 (init=1)
+[f=0000442] [ThreadPool::SetThreadCount][2] workers=2
+[f=0000442] [Threading] Main thread CPU affinity mask set: 12
+[f=0000442] [SpringApp::Reload][2]
+[f=0000442] [~CDemoRecorder] writing demo "C:\Users\Th3fi\Desktop\spring-104.0_win32\demos\20200120_090439_Desert 2_104.sdfz"
+[f=0000442] [Game::KillLua][0] dtor=0 loadscreen=00000000
+[f=0000442] [Game::KillLua][1] dtor=0 luaGaia=290213e8
+[f=0000442] [LuaMemPool::LogStats][handle=LuaGaia (unsynced)] index=4294967295 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,87237,0} {chunk,block}Bytes={0,0}
+[f=0000442] [LuaMemPool::LogStats][handle=LuaGaia (synced)] index=4294967295 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,87237,0} {chunk,block}Bytes={0,0}
+[f=0000442] [Game::KillLua][2] dtor=0 luaRules=28dcda70
+[f=0000442] [LuaMemPool::LogStats][handle=LuaRules (unsynced)] index=4294967295 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,87238,0} {chunk,block}Bytes={0,0}
+[f=0000442] [LuaMemPool::LogStats][handle=LuaRules (synced)] index=4294967295 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,87238,0} {chunk,block}Bytes={0,0}
+[f=0000442] [Game::KillLua][3] dtor=0 luaUI=0515a6f8
+[f=0000442] [LuaMemPool::LogStats][handle=LuaUI (unsynced)] index=4294967295 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,87254,0} {chunk,block}Bytes={0,0}
+[f=0000442] [Game::KillLua][4] dtor=0
+[f=0000442] [SpringApp::Reload][3]
+[f=0000442] [Sound] [~CSound][1] soundThread=03a999b4
+[f=0000442] [WatchDog::DeregisterThread] deregistering controls for thread [audio]
+[f=0000442] [Sound] [Sound::UpdateThread][3] efx=051fcd88
+[f=0000442] [Sound] [Sound::UpdateThread][4] ctx=0444ee80 dev=05203680
+[f=0000442] [Sound] [Sound::UpdateThread][5]
+[f=0000442] [Sound] [~CSound][2]
+[f=0000442] [Sound] [~CSound][3]
+[f=0000442] [SpringApp::Reload][4]
+[f=0000442] [Game::~CGame][1]
+[f=0000442] [Game::KillLua][0] dtor=1 loadscreen=00000000
+[f=0000442] [Game::KillLua][1] dtor=1 luaGaia=00000000
+[f=0000442] [Game::KillLua][2] dtor=1 luaRules=00000000
+[f=0000442] [Game::KillLua][3] dtor=1 luaUI=00000000
+[f=0000442] [Game::KillLua][4] dtor=1
+[f=0000442] [Game::KillMisc][1]
+[f=0000442] [Game::KillMisc][2]
+[f=0000442] [Game::KillMisc][3]
+[f=0000442] [Game::KillRendering][1]
+[f=0000442] [Game::KillInterface][1]
+[f=0000442] [Game::KillInterface][2]
+[f=0000442] [Game::KillSimulation][1]
+[f=0000442] [Game::KillSimulation][2] unitHandler=05416190
+[f=0000442] [CCollisionHandler] dis-/continuous tests: 0/205662
+[f=0000442] [Game::KillSimulation][3]
+[f=0000442] [~CPathCache(40x24)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=0
+[f=0000442] [~CPathCache(40x24)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=0
+[f=0000442] [~CPathCache(80x48)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=0
+[f=0000442] [~CPathCache(80x48)] cacheHits=680 hitPercentage=15% numHashColls=0 maxCacheSize=33
+[f=0000442] Statistics for RectangleOptimizer: 0%
+[f=0000442] Statistics for RectangleOptimizer: 0%
+[f=0000442] LosHandler stats: total instances=2; shared=0%; from cache=50%
+[f=0000442] [Game::KillSimulation][4]
+[f=0000442] [Game::~CGame][2]
+[f=0000442] [Game::~CGame][3]
+[f=0000442] [LocalConnection::Statistics]
+	Received: 2058 bytes
+	Sent: 5563 bytes
+
+[f=0000442] [SpringApp::Reload][5]
+[f=0000442] [SpringApp::Reload][6]
+[f=0000442] Scanning: C:\Users\Th3fi\Desktop\spring-104.0_win32\maps
+[f=0000442] Scanning: C:\Users\Th3fi\Desktop\spring-104.0_win32\base
+[f=0000442] Scanning: C:\Users\Th3fi\Desktop\spring-104.0_win32\games
+[f=0000442] [~ScopedOnceTimer][CArchiveScanner::ScanAllDirs] 5ms
+[f=0000442] [SpringApp::Reload][7]
+[f=0000442] [SpringApp::Reload][8]
+[f=0000442] [~ScopedOnceTimer][ISound::Init::New] 0ms
+[f=0000442] [Sound] [ISound::Initialize] spawning sound-thread (0.0ms)
+[f=0000442] [Sound] [Sound::UpdateThread][1] cfgMaxSounds=128
+[f=0000442] [WatchDog::RegisterThread] registering controls for thread [audio]
+[f=0000442] [Sound] [Sound::InitThread][1]
+[f=0000442] [Sound] [Sound::InitThread][2] opening default device "OpenAL Soft"
+[f=0000442] [Sound] [ISound::Initialize] spawning sound-thread (101.4ms)
+[f=0000442] [Sound] [ISound::Initialize] spawning sound-thread (201.6ms)
+[f=0000442] [Sound] [Sound::InitThread][3] device=05530600 context=29132bb8
+[f=0000442] [Sound] [Sound::InitThread][4][OpenAL API Info]
+[f=0000442] [Sound]   Vendor:         OpenAL Community
+[f=0000442] [Sound]   Version:        1.1 ALSOFT 1.16.0
+[f=0000442] [Sound]   Renderer:       OpenAL Soft
+[f=0000442] [Sound]   AL Extensions:  AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_block_alignment AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFT_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_MSADPCM AL_SOFT_source_latency AL_SOFT_source_length
+[f=0000442] [Sound]   ALC Extensions: ALC_ENUMERATE_ALL_EXT ALC_ENUMERATION_EXT ALC_EXT_CAPTURE ALC_EXT_DEDICATED ALC_EXT_disconnect ALC_EXT_EFX ALC_EXT_thread_local_context ALC_SOFTX_device_clock ALC_SOFTX_HRTF ALC_SOFT_loopback ALC_SOFTX_midi_interface ALC_SOFT_pause_device
+[f=0000442] [Sound]   Devices:
+[f=0000442] [Sound]     [Speaker/HP (Realtek High Definition Audio)]
+[f=0000442] [Sound]     [VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)]
+[f=0000442] [Sound]     [CABLE Input (VB-Audio Virtual Cable)]
+[f=0000442] [Sound]     [VoiceMeeter Aux Input (VB-Audio VoiceMeeter AUX VAIO)]
+[f=0000442] [Sound]     [Speaker/HP (Realtek High Definition Audio)]
+[f=0000442] [Sound] [ISound::Initialize] spawning sound-thread (302.6ms)
+[f=0000442] [Sound] Error:   EFX: AL_INVALID_VALUE (40963)
+[f=0000442] [Sound] Error:   Initializing EFX failed!
+[f=0000442] [Sound] [Sound::UpdateThread][2]
+[f=0000442] [~ScopedOnceTimer][ISound::Init::Dev] 402ms
+[f=0000442] [SpringApp::Reload][10]
+[f=-000001] [SpringApp::Reload][11]
+[f=-000001] [SpringApp::Reload][12] #script=0
+[f=-000001] [SpringApp::Reload][13] numReloads=1
+
+
+
+[f=-000001] [SpringApp::Kill][1] fromRun=1
+[f=-000001] [ThreadPool::SetThreadCount][1] wanted=0 current=3 maximum=4 (init=0)
+[f=-000001] 	[async=0] threads=3 tasks=0 {sum,avg}{exec,wait}time={{0.000, 0.000}, {0.000, 0.000}}ms
+[f=-000001] 	[async=1] threads=3 tasks=2 {sum,avg}{exec,wait}time={{-0.000, -0.000}, {0.000, 0.000}}ms
+[f=-000001] 		thread=1 tasks=1 {sum,min,max,avg}{exec,wait}time={{-0.000, -0.000, -0.000, -0.000}, {0.000, 0.000, 0.000, 0.000}}ms
+[f=-000001] 		thread=2 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.000, 0.000, 0.000, 0.000}, {0.000, 0.000, 0.000, 0.000}}ms
+[f=-000001] [ThreadPool::SetThreadCount][2] workers=0
+[f=-000001] [SpringApp::Kill][2]
+[f=-000001] [Sound] [~CSound][1] soundThread=03a999b4
+[f=-000001] [WatchDog::DeregisterThread] deregistering controls for thread [audio]
+[f=-000001] [Sound] [Sound::UpdateThread][3] efx=28d15498
+[f=-000001] [Sound] [Sound::UpdateThread][4] ctx=29132bb8 dev=05530600
+[f=-000001] [Sound] [Sound::UpdateThread][5]
+[f=-000001] [Sound] [~CSound][2]
+[f=-000001] [Sound] [~CSound][3]
+[f=-000001] [SpringApp::Kill][3]
+[f=-000001] [SpringApp::Kill][4] font=04c13a80
+[f=-000001] [SpringApp::Kill][5]
+[f=-000001] [SpringApp::Kill][6]
+[SpringApp::Kill][7]
+[LuaSocket] Dumping luasocket rules:
+[LuaSocket] TCP_CONNECT ALLOW * -1
+[LuaSocket] TCP_LISTEN  ALLOW * -1
+[LuaSocket] UDP_LISTEN  ALLOW * -1
+[SpringApp::Kill][8]
+[WatchDog::DeregisterThread] deregistering controls for thread [main]
+[WatchDog::Uninstall][1] hangDetectorThread=0107bed0 (joinable=1)
+[WatchDog::Uninstall][2]
+[WatchDog::Uninstall][3]
+[SpringApp::Kill][9]
